@@ -1,0 +1,6 @@
+This extension disables the activities hotspot, because it may be very frustrating in some situations. 
+I had problems with multiple monitors having a different resolution. The activities screen was activated way more often when I didn't want it too than when I want it to open. 
+It kept me from doing my work well, because I lost focues everytime the activities screen was shown.
+
+put it in ~/.local/share/gnome-shell/extensions/activitieshotspotdisabler@harmus.gmail.com/
+after that press ALT+F2 , type 'r' and press enter. gnome shell will reload with this extension enabled
