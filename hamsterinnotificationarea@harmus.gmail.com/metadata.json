@@ -1,0 +1,5 @@
+{"shell-version": ["3.0.0", "3.0.1", "3.0.2"], 
+"uuid": "hamsterinnotificationarea@harmus.gmail.com", 
+"name":"hamster applet in notification arae",
+"description": "This will put the hamster tray application in the notification area of gnome shell", 
+"url": "http://www.hermit.eu"}
