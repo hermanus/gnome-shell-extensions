@@ -1,0 +1,8 @@
+This extension puts the hamster-tray icon (which you can get via these instructions http://www.janhouse.lv/blog/linux/hamster-time-tracker-in-system-tray/ ) in the notification area of Gnome-shell (top right).
+
+use that script to make it work!!
+
+DO MIND THE UPDATE AT THE BOTTOM ABOUT REMOVING import gnomeapplet FROM applet.py before building hamster
+for instructions on building hamster: http://projecthamster.wordpress.com/building-and-running/
+
+The next step will be showing the current task as text in the notification area, like we were used to in Gnome 2.
