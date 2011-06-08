@@ -5,7 +5,6 @@
  * Next step will be having the current activity as text in the notification area
  */
 
-const Panel = imports.ui.panel;
 const StatusIconDispatcher = imports.ui.statusIconDispatcher;
 
 function main() {
