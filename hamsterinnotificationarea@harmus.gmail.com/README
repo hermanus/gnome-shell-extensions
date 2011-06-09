@@ -6,3 +6,13 @@ DO MIND THE UPDATE AT THE BOTTOM ABOUT REMOVING import gnomeapplet FROM applet.p
 for instructions on building hamster: http://projecthamster.wordpress.com/building-and-running/
 
 The next step will be showing the current task as text in the notification area, like we were used to in Gnome 2.
+
+
+
+INSTALLATION:
+put all the files ~/.local/share/gnome-shell/extensions/hamsterinnotificationarea@harmus.gmail.com/
+after that press ALT+F2 , type 'r' and press enter. gnome shell will reload with this extension enabled
+
+To automatically start Hamster with the tray-icon, run gnome-session-properties and add it to the list.
+
+i.e.: ~/opt/hamster-tray/hamster-tray
