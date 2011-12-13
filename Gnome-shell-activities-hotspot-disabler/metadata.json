@@ -1,5 +1,5 @@
-{"shell-version": ["3.0.0", "3.0.1", "3.0.2"], 
-"uuid": "activitieshotspotdisabler@harmus.gmail.com", 
-"name": "Activities hotspot disabler", 
-"description": "This extension disables the activities hotspot, so the activities screen is only activated by clicking on 'Activities' or pressing the super key (or alt+F1)", 
+{"shell-version": ["3.2"],
+"uuid": "activitieshotspotdisabler@harmus.gmail.com",
+"name": "Activities hotspot disabler",
+"description": "This extension disables the activities hotspot, so the activities screen is only activated by clicking on 'Activities' or pressing the super key (or alt+F1)",
 "url": "http://www.hermit.eu"}
