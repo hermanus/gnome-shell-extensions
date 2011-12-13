@@ -1,24 +1,23 @@
 /*
  * Gnome-Shell Hot corner disabler
  * Author: Herman Boomsma
- * 
+ * Author: Nathaniel Case
  * 
  */
 
+const Main = imports.ui.main;
 const Panel = imports.ui.layout;
 
 function init() {
-    old_function = Panel.HotCorner.prototype._onCornerEntered;
+    Panel.HotCorner.prototype.setReactive = function(enable) {
+        this._corner.reactive = enable;
+    }
 }
 
 function enable() {
-    //clear the _onCornerEntered function so there will be no hotspot
-    Panel.HotCorner.prototype._onCornerEntered = function() {
-        return false;
-    };
+    Main.panel._activitiesButton._hotCorner.setReactive(false);
 }
 
 function disable() {
-    //restore the _onCornerEntered function
-    Panel.HotCorner.prototype._onCornerEntered = old_function;
+    Main.panel._activitiesButton._hotCorner.setReactive(true);
 }
