@@ -1,4 +1,4 @@
-{"shell-version": ["3.6", "3.8"],
+{"shell-version": ["3.6", "3.8", "3.10"],
 "uuid": "activitieshotspotdisabler@harmus.gmail.com",
 "name": "Activities hotspot disabler",
 "description": "This extension disables the activities hotspot, so the activities screen is only activated by clicking on 'Activities' or pressing the super key (or alt+F1)",
